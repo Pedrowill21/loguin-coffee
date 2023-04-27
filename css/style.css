@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#dbdbdb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    width: 520px;
+    background-color: #9cddc8;
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px rgb(128, 127, 127, 4);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3px solid #00b5b9 ;
+    margin-bottom: 10px;
+}
+
+#midias-sociais{
+    margin-bottom: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+}
+
+#redes span{
+    margin: 5px;
+    background-color: #dbdbdb;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#person-data input{
+    width: 360px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#recovery{
+    display: flex;
+    align-items: center;
+}
+
+#recovery label{
+    display: inline;
+    margin-left: 5px;
+}
+
+#recovery div{
+    display: flex;
+    flex-grow: 1;
+}
+
+#submit{
+    width: 340px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+/*
+    All Formatting
+*/
+
+label{
+    display: block;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a:hover{
+    color: rgb(54, 54, 54);
+    box-shadow: 5px 5px 5px ;
+    border-radius: 5px;
+}
+
