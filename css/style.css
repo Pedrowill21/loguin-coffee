@@ -9,12 +9,13 @@ body{
     justify-content: center;
     background-color:#dbdbdb;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 395px;
+    height: 100vh;
 }
 
 #container{
     width: 520px;
     background-color: #9cddc8;
-    margin-top: 80px;
     box-sizing: border-box;
     padding: 20px;
     display: flex;
@@ -74,6 +75,10 @@ h1{
     padding-left: 10px;
 }
 
+#person-data input:focus{
+    outline: 2px solid rgb(255, 211, 13);
+}
+
 #recovery{
     display: flex;
     align-items: center;
@@ -93,7 +98,38 @@ h1{
     width: 340px;
     height: 40px;
     border-radius: 30px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #daff08, #7df79d);
+    border: none;
+    box-shadow: 2px 3px 10px rgb(128, 127, 127, 4);
+    color: white;
+    text-shadow: 1px 2px 3px rgb(80, 79, 79);
 }
+
+#submit:hover{
+    background: linear-gradient(to right, #eeff00, #1ef858);
+}
+
+#conditions{
+    display: flex;
+    align-items: center;
+}
+
+
+#conditions a{
+    font-size: 12px;
+    color: rgb(116, 115, 115);
+    margin-left: 10px;
+}
+
+#conditions a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
 
 /*
     All Formatting
@@ -112,8 +148,6 @@ a{
 }
 
 a:hover{
-    color: rgb(54, 54, 54);
-    box-shadow: 5px 5px 5px ;
-    border-radius: 5px;
+    color: rgb(122, 122, 122);
 }
 
